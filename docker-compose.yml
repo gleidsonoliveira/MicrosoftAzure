@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  bancomaster.comissaoasap:
+    env_file: env.local
+    image: bancomaster.comissaoasap
+    build:
+      context: ./src/
+      dockerfile: ./BancoMaster.ComissaoAsap.Worker/Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_REGION: ${AWS_REGION}
