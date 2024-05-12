@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Library.Worker", "Microsoft.Azure.Library.Worker\Microsoft.Azure.Library.Worker.csproj", "{95564297-0FB0-46CE-B179-3A9BE0153A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Library.KeyVault", "Microsoft.Azure.Library.KeyVault\Microsoft.Azure.Library.KeyVault.csproj", "{486D0A38-201F-4F5C-8F52-168E169EFE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95564297-0FB0-46CE-B179-3A9BE0153A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95564297-0FB0-46CE-B179-3A9BE0153A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95564297-0FB0-46CE-B179-3A9BE0153A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95564297-0FB0-46CE-B179-3A9BE0153A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486D0A38-201F-4F5C-8F52-168E169EFE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486D0A38-201F-4F5C-8F52-168E169EFE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486D0A38-201F-4F5C-8F52-168E169EFE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486D0A38-201F-4F5C-8F52-168E169EFE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FD44913-B9F5-4D42-97BD-9EAE4A6529FA}
+	EndGlobalSection
+EndGlobal
