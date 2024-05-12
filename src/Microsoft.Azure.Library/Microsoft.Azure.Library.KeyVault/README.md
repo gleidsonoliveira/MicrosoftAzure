@@ -6,6 +6,10 @@ az login
 ```
 az group create --name rg-kv-library --location eastus2
 ```
+# To list the resource groups in your subscription
+```
+az group list
+```
 
 # Create key vault via command line
 ```
